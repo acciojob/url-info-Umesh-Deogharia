@@ -5,4 +5,4 @@ let url = location.href;
 let length = url.length;
 
 // const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(length)); 
+alert(firstNonRepeatedChar(`The length of the URL is: ${length}`)); 
