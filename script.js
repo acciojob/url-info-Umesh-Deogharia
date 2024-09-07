@@ -1,7 +1,8 @@
 //your JS code here. If required.
 
-let url = (location.href).length;
+let url = location.href;
 
+let length = url.length;
 
 // const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(url)); 
+alert(firstNonRepeatedChar(length)); 
